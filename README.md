@@ -38,7 +38,7 @@
 
 | Dashboard | Login Page |
 |:---------:|:----------:|
-| ![Dashboard](https://via.placeholder.com/600x340/5D87FF/FFFFFF?text=Dashboard+Preview) | ![Login](https://via.placeholder.com/600x340/5D87FF/FFFFFF?text=Login+Page+Preview) |
+| ![Dashboard](src/assets/images/preview/dashboard.png) | ![Login](src/assets/images/preview/login-page.png) |
 
 > 💡 *Replace the placeholder images above with actual screenshots of your running application.*
 
@@ -150,7 +150,7 @@ Cere-Admin-Github/
 ├── src/
 │   ├── index.html                    # 🏠 Main dashboard page
 │   │
-│   ├── html/
+│   ├── pages/
 │   │   ├── authentication-login.html     # Login page
 │   │   ├── authentication-register.html  # Register page
 │   │   ├── ui-alerts.html                # Alerts showcase
@@ -252,7 +252,7 @@ Then recompile with `npm run compile-sass`.
 
 ### Adding New Pages
 
-1. Copy `src/html/sample-page.html` as your starter
+1. Copy `src/pages/sample-page.html` as your starter
 2. Add your content inside the main wrapper
 3. Link the page in the sidebar navigation in `src/index.html`
 
@@ -303,3 +303,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 <p align="center">
   <a href="#top">⬆ Back to Top</a>
 </p>
+
